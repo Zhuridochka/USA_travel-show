@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>ExcursionsPage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="description" content="Tour company JimyTravel organizing tours to the most popular geolocations of the United States of America, for adults and children, organizing multi-day and one-day trips.">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250202115030">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="112" data-scroll-show="1000" class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/logo/logo.webp" alt="Logo">
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="home.html#home" class="menu__link">
+									Main
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="excursions.html#excursions" class="menu__link">
+									Excursions
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="overview.html#overview" class="menu__link">
+									Personal account
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+		<main class="excursions">
+			<section class="excursions__hero hero-excursions">
+				<div class="hero-excursions__image-bg">
+					<img class="hero-excursions__image ibg" src="img/route/usa/montana_02.webp" alt="Image">
+				</div>
+				<div class="hero-excursions__container">
+					<h1 class="hero-excursions__title">our excursions</h1>
+				</div>
+			</section>
+
+			<div class="excursions__tours tours">
+				<div class="tours__container">
+					<div data-tabs class="tours__tabs tabs">
+						<nav data-tabs-titles class="tabs__navigation">
+							<button type="button" class="tabs__title _tab-active">bus tour</button>
+							<button type="button" class="tabs__title">jeeping</button>
+							<button type="button" class="tabs__title">yachting</button>
+							<button type="button" class="tabs__title">canyoning</button>
+						</nav>
+						<div data-tabs-body class="tabs__content">
+							<div class="tabs__body">
+								<form class="tabs__form-excursions form-excursions" action="https://jkorpela.fi/cgi-bin/echo.cgi" enctype="multipart/form-data" method="POST">
+									<div class="form-excursions__line line">
+										<select name="form[geo]" data-class-modif="form-geo">
+											<option value="1" selected>New York</option>
+											<option value="2">Pennsylvania</option>
+											<option value="3">Texas</option>
+											<option value="4">Montana</option>
+											<option value="5">Minnesota</option>
+											<option value="6">Idaho</option>
+											<option value="7">Florida</option>
+											<option value="8">California</option>
+										</select>
+									</div>
+									<div class="form-excursions__line line">
+										<input data-datepicker type="text" name="form[date]" placeholder="10 september 2024" class="form-excursions__input">
+										<span class=" _icon-calendar"></span>
+									</div>
+									<div class="form-excursions__line line">
+										<select name="form[people]" data-class-modif="form-people">
+											<option value="1" selected>5 people</option>
+											<option value="2">1 person</option>
+											<option value="3">2 people</option>
+											<option value="4">3 people</option>
+											<option value="5">4 people</option>
+											<option value="6">5 people</option>
+											<option value="7">6 people</option>
+										</select>
+									</div>
+									<button class="form-excursions__button button button--big" type="submit">Show</button>
+								</form>
+							</div>
+							<div class="tabs__body">
+								<form class="tabs__form-excursions form-excursions" action="https://jkorpela.fi/cgi-bin/echo.cgi" enctype="multipart/form-data" method="POST">
+									<div class="form-excursions__line line">
+										<select name="form[geo]" data-class-modif="form-geo">
+											<option value="1">New York</option>
+											<option value="2">Pennsylvania</option>
+											<option value="3">Texas</option>
+											<option value="4">Montana</option>
+											<option value="5" selected>Minnesota</option>
+											<option value="6">Idaho</option>
+											<option value="7">Florida</option>
+											<option value="8">California</option>
+										</select>
+									</div>
+									<div class="form-excursions__line line">
+										<input data-datepicker type="text" name="form[date]" placeholder="10 september 2024" class="form-excursions__input">
+										<span class=" _icon-calendar"></span>
+									</div>
+									<div class="form-excursions__line line">
+										<select name="form[people]" data-class-modif="form-people">
+											<option value="1">1 people</option>
+											<option value="2">2 person</option>
+											<option value="3" selected>3 people</option>
+											<option value="4">4 people</option>
+											<option value="5">5 people</option>
+											<option value="6">6 people</option>
+											<option value="7">7 people</option>
+										</select>
+									</div>
+									<button class="form-excursions__button button button--big" type="submit">Show</button>
+								</form>
+							</div>
+							<div class="tabs__body">
+								<form class="tabs__form-excursions form-excursions" action="https://jkorpela.fi/cgi-bin/echo.cgi" enctype="multipart/form-data" method="POST">
+									<div class="form-excursions__line line">
+										<select name="form[geo]" data-class-modif="form-geo">
+											<option value="1">New York</option>
+											<option value="2">Pennsylvania</option>
+											<option value="3">Texas</option>
+											<option value="4">Montana</option>
+											<option value="5">Minnesota</option>
+											<option value="6">Idaho</option>
+											<option value="7">Florida</option>
+											<option value="8" selected>California</option>
+										</select>
+									</div>
+									<div class="form-excursions__line line">
+										<input data-datepicker type="text" name="form[date]" placeholder="10 september 2024" class="form-excursions__input">
+										<span class=" _icon-calendar"></span>
+									</div>
+									<div class="form-excursions__line line">
+										<select name="form[people]" data-class-modif="form-people">
+											<option value="1">1 people</option>
+											<option value="2" selected>2 person</option>
+											<option value="3">3 people</option>
+											<option value="4">4 people</option>
+											<option value="5">5 people</option>
+											<option value="6">6 people</option>
+											<option value="7">7 people</option>
+										</select>
+									</div>
+									<button class="form-excursions__button button button--big" type="submit">Show</button>
+								</form>
+							</div>
+							<div class="tabs__body">
+								<form class="tabs__form-excursions form-excursions" action="https://jkorpela.fi/cgi-bin/echo.cgi" enctype="multipart/form-data" method="POST">
+									<div class="form-excursions__line line">
+										<select name="form[geo]" data-class-modif="form-geo">
+											<option value="1" selected>New York</option>
+											<option value="2">Pennsylvania</option>
+											<option value="3">Texas</option>
+											<option value="4">Montana</option>
+											<option value="5">Minnesota</option>
+											<option value="6">Idaho</option>
+											<option value="7">Florida</option>
+											<option value="8">California</option>
+										</select>
+									</div>
+									<div class="form-excursions__line line">
+										<input data-datepicker type="text" name="form[date]" placeholder="10 november 2024" class="form-excursions__input">
+										<span class=" _icon-calendar"></span>
+									</div>
+									<div class="form-excursions__line line">
+										<select name="form[people]" data-class-modif="form-people">
+											<option value="1">1 people</option>
+											<option value="2">2 person</option>
+											<option value="3">3 people</option>
+											<option value="4">4 people</option>
+											<option value="5">5 people</option>
+											<option value="6" selected>6 people</option>
+											<option value="7">7 people</option>
+										</select>
+									</div>
+									<button class="form-excursions__button button button--big" type="submit">Show</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="excursions__content content-excursions">
+				<div class="content-excursions__container">
+					<aside class="content-excursions__filter filter">
+						<div class="filter__wrap">
+							<div class="filter__title">filter</div>
+							<div class="filter__body">
+								<form action="https://jkorpela.fi/cgi-bin/echo.cgi" class="filter__form form-filter">
+
+									<div data-spollers class="form-filter__spollers spollers">
+										<details data-open class="spollers__item">
+											<summary class="spollers__title _icon-plus">Price
+											</summary>
+											<div class="spollers__body filter-price">
+												<div class="filter-price__box">
+													<input data-from="" id="price-start" type="text" class="filter-price__input filter-price__input--from">
+													<input data-to id="price-end" type="text" class="filter-price__input filter-price__input--to">
+												</div>
+												<div class="filter-price__range"></div>
+											</div>
+										</details>
+
+										<details data-open class="spollers__item">
+											<summary class="spollers__title _icon-plus">Number of people</summary>
+											<div class="spollers__body filter-number">
+												<div class="filter-number__options options">
+													<div class="options__item">
+														<input id="o_1" class="options__input" checked type="radio" value="1" name="option">
+														<label for="o_1" class="options__label"><span class="options__text">1 pers</span></label>
+													</div>
+													<div class="options__item">
+														<input id="o_2" class="options__input" type="radio" value="2" name="option">
+														<label for="o_2" class="options__label"><span class="options__text">2 peop</span></label>
+													</div>
+													<div class="options__item">
+														<input id="o_3" class="options__input" type="radio" value="3" name="option">
+														<label for="o_3" class="options__label"><span class="options__text">3 peop</span></label>
+													</div>
+													<div class="options__item">
+														<input id="o_4" class="options__input" type="radio" value="4" name="option">
+														<label for="o_4" class="options__label"><span class="options__text">4 peop</span></label>
+													</div>
+													<div class="options__item">
+														<input checked id="o_5" class="options__input" type="radio" value="5" name="option">
+														<label for="o_5" class="options__label"><span class="options__text">5 peop</span></label>
+													</div>
+													<div class="options__item">
+														<input id="o_10" class="options__input" type="radio" value="10" name="option">
+														<label for="o_10" class="options__label"><span class="options__text">More 10 peop</span></label>
+													</div>
+												</div>
+											</div>
+										</details>
+
+										<details data-open class="spollers__item">
+											<summary class="spollers__title _icon-plus">Place</summary>
+											<div class="spollers__body filter-place">
+												<div class="filter-place__checkbox checkbox checkbox--pls">
+													<input checked id="c_1" data-error="Error" class="checkbox__input checkbox__input--pls" type="checkbox" value="1" name="form[]">
+													<label for="c_1" class="checkbox__label checkbox__label--pls"><span class="checkbox__text checkbox__text--pls">New York</span></label>
+												</div>
+												<div class="filter-place__checkbox checkbox checkbox--pls">
+													<input id="c_2" data-error="Error" class="checkbox__input checkbox__input--pls" type="checkbox" value="2" name="form[]">
+													<label for="c_2" class="checkbox__label checkbox__label--pls"><span class="checkbox__text checkbox__text--pls">Pennsylvania</span></label>
+												</div>
+												<div class="filter-place__checkbox checkbox checkbox--pls">
+													<input id="c_3" data-error="Error" class="checkbox__input checkbox__input--pls" type="checkbox" value="3" name="form[]">
+													<label for="c_3" class="checkbox__label checkbox__label--pls"><span class="checkbox__text checkbox__text--pls">Texas</span></label>
+												</div>
+												<div class="filter-place__checkbox checkbox checkbox--pls">
+													<input id="c_4" data-error="Error" class="checkbox__input checkbox__input--pls" type="checkbox" value="4" name="form[]">
+													<label for="c_4" class="checkbox__label checkbox__label--pls"><span class="checkbox__text checkbox__text--pls">Montana</span></label>
+												</div>
+												<div class="filter-place__checkbox checkbox checkbox--pls">
+													<input id="c_5" data-error="Error" class="checkbox__input checkbox__input--pls" type="checkbox" value="5" name="form[]">
+													<label for="c_5" class="checkbox__label checkbox__label--pls"><span class="checkbox__text checkbox__text--pls">Minnesota</span></label>
+												</div>
+											</div>
+										</details>
+
+										<details class="spollers__item">
+											<summary class="spollers__title _icon-plus">Duration</summary>
+											<div class=" spollers__body filter-duration">
+											</div>
+										</details>
+
+										<details class="spollers__item">
+											<summary class="spollers__title _icon-plus">Date</summary>
+											<div class="spollers__body filter-date">
+											</div>
+										</details>
+									</div>
+
+									<div class="form-filter__buttons">
+										<button class="form-filter__button button button--fw" type="submit">Show</button>
+										<button class="form-filter__reset _icon-across" type="reset">
+											Reset filters
+										</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</aside>
+					<section class="content-excursions__body body-excursions">
+						<h2 class="body-excursions__title title">Our tours</h2>
+						<div data-watch data-watch-once class="body-excursions__list">
+							<article class="body-excursions__item item-tour">
+								<div class="item-tour__picture">
+									<img class="item-tour__image" src="img/route/usa/hollywood.webp" alt="Image of hollywood">
+								</div>
+								<div class="item-tour__inner">
+									<div class="item-tour__content">
+										<div class="item-tour__top">
+											<div class="item-tour__subtitle">Bus tour</div>
+											<h3 class="item-tour__title-name">Los Angeles Sightseeing Tour</h3>
+											<div class="item-tour__info info-popular">
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">1618 $</div>
+													<div class="item-info-popular__ticket">Adult ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">950 $</div>
+													<div class="item-info-popular__ticket">Child ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular ">
+													<div class="item-info-popular__time _icon-time">6 hours</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-tour__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis sunt qui labore deleniti mollitia aliquid eligendi corrupti! Temporibus quam tempora ipsam ullam voluptatum consequuntur iusto aliquid earum necessitatibus cumque?
+											</p>
+										</div>
+										<div class="item-tour__actions actions-item-tour">
+											<a href="#" class="actions-item-tour__button button button--rm">Read more</a>
+											<a href="#" class="actions-item-tour__like like _icon-heart"></a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="body-excursions__item item-tour">
+								<div class="item-tour__picture">
+									<img class="item-tour__image" src="img/route/usa/statue_of_liberty_1200.webp" alt="Image">
+								</div>
+								<div class="item-tour__inner">
+									<div class="item-tour__content">
+										<div class="item-tour__top">
+											<div class="item-tour__subtitle">Bus tour</div>
+											<h3 class="item-tour__title-name">New York Tour</h3>
+											<div class="item-tour__info info-popular">
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">1618 $</div>
+													<div class="item-info-popular__ticket">Adult ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">950 $</div>
+													<div class="item-info-popular__ticket">Child ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular ">
+													<div class="item-info-popular__time _icon-time">6 hours</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-tour__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis sunt qui labore deleniti mollitia aliquid eligendi corrupti! Temporibus quam tempora ipsam ullam voluptatum consequuntur iusto aliquid earum necessitatibus cumque?
+											</p>
+										</div>
+										<div class="item-tour__actions actions-item-tour">
+											<a href="#" class="actions-item-tour__button button button--rm">Read more</a>
+											<a href="#" class="actions-item-tour__like like _icon-heart"></a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="body-excursions__item item-tour">
+								<div class="item-tour__picture">
+									<img class="item-tour__image" src="img/route/usa/pennsylvania.webp" alt="Image">
+								</div>
+								<div class="item-tour__inner">
+									<div class="item-tour__content">
+										<div class="item-tour__top">
+											<div class="item-tour__subtitle">Bus tour</div>
+											<h3 class="item-tour__title-name">Pennsylvania Tour</h3>
+											<div class="item-tour__info info-popular">
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">1618 $</div>
+													<div class="item-info-popular__ticket">Adult ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">950 $</div>
+													<div class="item-info-popular__ticket">Child ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular ">
+													<div class="item-info-popular__time _icon-time">6 hours</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-tour__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis sunt qui labore deleniti mollitia aliquid eligendi corrupti! Temporibus quam tempora ipsam ullam voluptatum consequuntur iusto aliquid earum necessitatibus cumque?
+											</p>
+										</div>
+										<div class="item-tour__actions actions-item-tour">
+											<a href="#" class="actions-item-tour__button button button--rm">Read more</a>
+											<a href="#" class="actions-item-tour__like like _icon-heart"></a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="body-excursions__item item-tour">
+								<div class="item-tour__picture">
+									<img class="item-tour__image" src="img/route/usa/texas.webp" alt="Image of mountain">
+								</div>
+								<div class="item-tour__inner">
+									<div class="item-tour__content">
+										<div class="item-tour__top">
+											<div class="item-tour__subtitle">Bus tour</div>
+											<h3 class="item-tour__title-name">Texas Tour</h3>
+											<div class="item-tour__info info-popular">
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">1618 $</div>
+													<div class="item-info-popular__ticket">Adult ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">950 $</div>
+													<div class="item-info-popular__ticket">Child ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular ">
+													<div class="item-info-popular__time _icon-time">6 hours</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-tour__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis sunt qui labore deleniti mollitia aliquid eligendi corrupti! Temporibus quam tempora ipsam ullam voluptatum consequuntur iusto aliquid earum necessitatibus cumque?
+											</p>
+										</div>
+										<div class="item-tour__actions actions-item-tour">
+											<a href="#" class="actions-item-tour__button button button--rm">Read more</a>
+											<a href="#" class="actions-item-tour__like like _icon-heart"></a>
+										</div>
+									</div>
+								</div>
+							</article>
+							<article class="body-excursions__item item-tour">
+								<div class="item-tour__picture">
+									<img class="item-tour__image" src="img/route/usa/montana.webp" alt="Image of Montana">
+								</div>
+								<div class="item-tour__inner">
+									<div class="item-tour__content">
+										<div class="item-tour__top">
+											<div class="item-tour__subtitle">Bus tour</div>
+											<h3 class="item-tour__title-name">Montana Tour</h3>
+											<div class="item-tour__info info-popular">
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">1618 $</div>
+													<div class="item-info-popular__ticket">Adult ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular">
+													<div class="item-info-popular__price _icon-coins">950 $</div>
+													<div class="item-info-popular__ticket">Child ticket</div>
+												</div>
+												<div class="info-popular__item item-info-popular ">
+													<div class="item-info-popular__time _icon-time">6 hours</div>
+												</div>
+											</div>
+										</div>
+										<div class="item-tour__text">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi quis sunt qui labore deleniti mollitia aliquid eligendi corrupti! Temporibus quam tempora ipsam ullam voluptatum consequuntur iusto aliquid earum necessitatibus cumque?
+											</p>
+										</div>
+										<div class="item-tour__actions actions-item-tour">
+											<a href="#" class="actions-item-tour__button button button--rm">Read more</a>
+											<a href="#" class="actions-item-tour__like like _icon-heart"></a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="body-excursions__pages pages-excursions">
+							<a href="#" class="pages-excursions__prev-link _icon-Frame"></a>
+							<ul class="pages-excursions__list">
+								<li class="pages-excursions__item">
+									<a href="#" class="pages-excursions__link">1</a>
+								</li>
+								<li class="pages-excursions__item">
+									<a href="#" class="pages-excursions__link">2</a>
+								</li>
+								<li class="pages-excursions__item">
+									<a href="#" class="pages-excursions__link">...</a>
+								</li>
+								<li class="pages-excursions__item">
+									<a href="#" class="pages-excursions__link">5</a>
+								</li>
+							</ul>
+							<a href="#" class="pages-excursions__next-link _icon-Frame"></a>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<div class="footer__box">
+						<a href="#" class="footer__logo">
+							<img src="img/logo/logo.webp" alt="Logo">
+						</a>
+					</div>
+					<div class="footer__list footer-menu">
+						<ul class="footer-menu__items list-footer">
+							<li class="list-footer__item">
+								<a href="home.html#home" class="list-footer__link">
+									Main
+								</a>
+							</li>
+							<li class="list-footer__item">
+								<a href="excursions.html#excursions" class="list-footer__link">
+									Excursions
+								</a>
+							</li>
+							<li class="list-footer__item">
+								<a href="overview.html#overview" class="list-footer__link">
+									Personal account
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__contacts footer-contacts">
+						<ul class="footer-contacts__items list-footer">
+							<li class="list-footer__item ">
+								<a href="tel:+19261234567" class="list-footer__link _icon-whatsapp">
+									+1 926 123 45 67
+								</a>
+							</li>
+							<li class="list-footer__item">
+								<a href="tel:+19267654321" class="list-footer__link _icon-s-telegram">
+									+1 926 765 43 21
+								</a>
+							</li>
+							<li class="list-footer__item">
+								<a href="#" class="list-footer__link _icon-s-telegram">
+									TelegramBot JimyTravel
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer__communication communication-footer">
+						<div class="communication-footer__wrap">
+							<div data-da=".footer-contacts__items,730,last" class="communication-footer__item">
+								<a href="mailto:office-travel@gmail.com" class="communication-footer__email _icon-envelope">office-travel@gmail.com</a>
+							</div>
+
+							<div data-da=".footer__box,730,last" class="communication-footer__social social-footer">
+								<ul class="social-footer__list">
+									<li class="social-footer__item">
+										<a href="https://x.com/" class="social-footer__link _icon-x">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://www.instagram.com/" class="social-footer__link _icon-s-instagram">
+										</a>
+									</li>
+									<li class="social-footer__item">
+										<a href="https://www.facebook.com/" class="social-footer__link _icon-s-facebook">
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<!-- Документація: https://template.fls.guru/template-docs/modul-preloader.html -->
+	<div id="fls-preloader">
+		<!-- Скріпт прелоадера -->
+		<script>
+			function preloader() {
+				const preloaderImages = document.querySelector('[data-preloader]') ? document.querySelectorAll('[data-preloader] img') : document.querySelectorAll('img');
+				const preloaderContainer = document.querySelector('#fls-preloader');
+				if (preloaderImages.length) {
+					const preloaderStyleTemplate = `
+				<style>
+					* {
+						padding: 0px;
+						margin: 0px;
+						border: 0px;
+						box-sizing: border-box;
+					}
+					/* Головний блок */
+					.fls-preloader{
+						pointer-events: none;
+						z-index: -1;
+						position: fixed;
+						width: 100%;
+						height: 100%;
+						top: 0;
+						left: 0;
+						display: flex;
+						justify-content:center;
+						align-items: center;
+					}
+					/* Блок з елементами */
+					.fls-preloader__body{
+						padding: 0.93rem;
+						max-width: 31.25rem;
+						display: flex;
+						flex-direction: column;
+					}
+					/* Блок з лічильником */
+					.fls-preloader__counter{
+					color:#475B1B;
+						font-size: 10rem;
+					}
+					/* Прогресбар */
+					.fls-preloader__line{}
+					/* Лінія прогресбару */
+					.fls-preloader__line span{
+						display: inline-block;
+						transition: width 0.2s ease;
+						height: 0.8rem;
+						background-color: #475B1B;
+					}
+					.lock body{
+						overflow: hidden;
+						touch-action: none;
+						overscroll-behavior: none;
+					}
+					.loading body>*:not(.fls-preloader){
+						opacity: 0;
+						visibility: hidden;
+					}
+					.loaded body>*:not(.fls-preloader){
+						transition: opacity 0.5s ease 0s;
+						opacity: 1;
+						visibility: visible;
+					}
+				</style>`;
+
+					document.head.insertAdjacentHTML("beforeend", preloaderStyleTemplate);
+
+					const preloaderTemplate = `
+					<div class="fls-preloader">
+						<div class="fls-preloader__body">
+							<div class="fls-preloader__counter">0%</div>
+							<div class="fls-preloader__line"><span></span></div>
+						</div>
+					</div>`;
+					document.body.insertAdjacentHTML("beforeend", preloaderTemplate);
+
+					const
+						preloader = document.querySelector('.fls-preloader'),
+						showPecentLoad = document.querySelector('.fls-preloader__counter'),
+						showLineLoad = document.querySelector('.fls-preloader__line span'),
+						htmlDocument = document.documentElement;
+
+					let imagesLoadedCount = counter = progress = 0;
+
+					htmlDocument.classList.add('loading');
+					htmlDocument.classList.add('lock');
+
+					preloaderImages.forEach(preloaderImage => {
+						const imgClone = document.createElement('img');
+						if (imgClone) {
+							imgClone.onload = imageLoaded;
+							imgClone.onerror = imageLoaded;
+							preloaderImage.dataset.src ? imgClone.src = preloaderImage.dataset.src : imgClone.src = preloaderImage.src;
+						}
+					});
+
+					function setValueProgress(progress) {
+						showPecentLoad ? showPecentLoad.innerText = `${progress}%` : null;
+						showLineLoad ? showLineLoad.style.width = `${progress}%` : null;
+					}
+					showPecentLoad ? setValueProgress(progress) : null;
+
+					function imageLoaded() {
+						imagesLoadedCount++;
+						progress = Math.round((100 / preloaderImages.length) * imagesLoadedCount);
+						const intervalId = setInterval(() => {
+							counter >= progress ? clearInterval(intervalId) : setValueProgress(++counter);
+							counter >= 100 ? addLoadedClass() : null;
+						}, 10);
+					}
+
+					function addLoadedClass() {
+						htmlDocument.classList.add('loaded');
+						htmlDocument.classList.remove('lock');
+						htmlDocument.classList.remove('loading');
+						setInterval(() => {
+							preloader.remove();
+							preloaderContainer.remove();
+						}, 500);
+					}
+				} else {
+					preloaderContainer.remove();
+				}
+			}
+			preloader();
+		</script>
+	</div>
+	<script src="js/app.min.js?_v=20250202115030"></script>
+</body>
+
+</html>
